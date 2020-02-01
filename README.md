@@ -1,4 +1,4 @@
-# React-Family: 基于create-react-app完善的项目全家桶架构
+# React-Family: 基于create-react-app的项目全家桶
 
 ## 特性说明
 
