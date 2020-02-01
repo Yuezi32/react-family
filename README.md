@@ -12,6 +12,10 @@
 8. 支持浏览器Redux DevTools插件（需先在chrome应用商店添加Redux DevTools）
 9. 支持反向代理（在src/setupProxy.js中配置）
 
+## 如何集成Ant Design
+
+考虑到Ant Design不是项目必须UI库，未集成至全家桶。如需使用，请参阅我微信公众号（卧梅又闻花）的教程《超全面详细的一条龙教程！从零搭建React项目全家桶》，非常简单。
+
 ## 目录结构
 
 ```
@@ -92,61 +96,71 @@
 
 2 精简项目
 
-  2.1 删除文件
+* 2.1 删除文件
 
-  2.2 简化代码
+* 2.2 简化代码
 
-  2.3 使用Fragment去掉组件外层标签
+* 2.3 使用Fragment去掉组件外层标签
 
 3 项目目录结构
 
-  3.1 引入全局公用样式
+* 3.1 引入全局公用样式
 
-  3.2 支持Sass/Less/Stylus
+* 3.2 支持Sass/Less/Stylus
 
 4 路由
 
-  4.1 页面构建
+* 4.1 页面构建
 
-  4.2 使用react-router-dom
+* 4.2 使用react-router-dom
 
-  4.3 路由跳转
+* 4.3 路由跳转
 
 5 组件引入
 
-  5.1 创建header组件
+* 5.1 创建header组件
 
-  5.2 引入Header组件
+* 5.2 引入Header组件
 
-  5.3 组件传参
+* 5.3 组件传参
 
 6 React Developer Tools浏览器插件
 
 7 Redux及相关插件
   
-  7.1 安装redux
+* 7.1 安装redux
 
-  7.2 安装react-redux
+* 7.2 安装react-redux
 
-  7.3 安装redux-thunk
+* 7.3 安装redux-thunk
 
-  7.4 安装浏览器Redux插件
+* 7.4 安装浏览器Redux插件
 
-  7.5 创建store
+* 7.5 创建store
 
-  7.6 复杂项目store分解
+* 7.6 复杂项目store分解
 
-  7.7 对接react-redux与store
+* 7.7 对接react-redux与store
 
-  7.8 启动Redux DevTools
+* 7.8 启动Redux DevTools
 
-  7.9 安装使用immutable
+* 7.9 安装使用immutable
 
 8 Mock.js安装与使用
 
 9 解决本地开发跨域问题
 
 10 其他常用工具
+
+11 附赠章节：集成Ant Design
+
+* 11.1 安装Ant Design
+
+* 11.2 实现按需加载
+
+* 11.3 自定义主题颜色
+
+## 原文及微信公众号
 
 教程原文请关注我的公众号【卧梅又闻花】，如有问题欢迎在微信公众号私信交流。
 
