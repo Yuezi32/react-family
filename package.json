@@ -147,7 +147,7 @@
     "http-proxy-middleware": "^0.20.0",
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"
   }
